@@ -10,10 +10,5 @@ const isPalindrome = function(num) {
   for (let i = 0; i < str2Array.length; i++) {
     str2 += str2Array[i];
   }
-  if (str1 == str2) {
-    return true;
-  } else {
-    return false;
-  }
+  return str1 == str2;
 };
-
