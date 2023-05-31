@@ -12,3 +12,6 @@ const isPalindrome = function(num) {
   }
   return str1 == str2;
 };
+
+// Test ----> Expected output = true
+console.log(isPalindrome(2002));
